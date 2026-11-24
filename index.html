@@ -287,6 +287,7 @@
       <a href="#project01">Project 01</a>
       <a href="#project02">Project 02</a>
       <a href="#project03">Project 03</a>
+      <a href="#project04">Project 04</a>
       <a href="#contact">문의</a>
     </nav>
     <button class="menu-btn">☰</button>
@@ -308,9 +309,10 @@
   <div class="contents-line">
     <a class="contents-item reveal" href="#about"><span class="num">01</span><span class="kr">소개</span><span class="en">Introduction</span></a>
     <a class="contents-item reveal" href="#capabilities"><span class="num">02</span><span class="kr">핵심역량</span><span class="en">Competencies</span></a>
-    <a class="contents-item reveal" href="#project01"><span class="num">03</span><span class="kr">빛의 서약</span><span class="en">Lighting &amp; MetaHuman</span></a>
-    <a class="contents-item reveal" href="#project02"><span class="num">04</span><span class="kr">함벽루</span><span class="en">Procedural Vegetation</span></a>
-    <a class="contents-item reveal" href="#project03"><span class="num">05</span><span class="kr">계절·날씨 PCG</span><span class="en">PCG &amp; MCP Pipeline</span></a>
+    <a class="contents-item reveal" href="#project01"><span class="num">03</span><span class="kr">전주향교 대성전</span><span class="en">Architectural Digital Twin</span></a>
+    <a class="contents-item reveal" href="#project02"><span class="num">04</span><span class="kr">빛의 서약</span><span class="en">Lighting &amp; MetaHuman</span></a>
+    <a class="contents-item reveal" href="#project03"><span class="num">05</span><span class="kr">함벽루</span><span class="en">Procedural Vegetation</span></a>
+    <a class="contents-item reveal" href="#project04"><span class="num">06</span><span class="kr">계절·날씨 PCG</span><span class="en">PCG &amp; MCP Pipeline</span></a>
   </div>
 </section>
 
@@ -397,13 +399,36 @@
   </div>
 </section>
 
-<!-- PROJECT 01 : 빛의 서약 -->
+<!-- PROJECT 01 : 전주향교 대성전 -->
 <section id="project01" style="padding:0; border-bottom:1px solid var(--line);">
+<div class="project-hero"><video autoplay muted loop playsinline poster="main%20render.webp"><source src="Daeseongjeon_Portfolio_Short.mp4" type="video/mp4"></video><div class="ph-overlay"></div><div class="ph-content"><div class="eyebrow" style="margin-bottom:8px;">Project 01 — Architectural Digital Twin</div><div class="project-title">Jeonju Hyanggyo Daeseongjeon <span style="font-size:16px; font-family:var(--body); font-weight:500; color:var(--ink-soft); display:block; margin-top:8px;">전주향교 대성전 · 실제 건축 도면 기반 디지털 재현</span></div><div class="project-sub">Blender · Substance Painter · Unreal Engine · AI-Assisted Modeling</div></div></div>
+<div class="project-body">
+<div class="render-frame reveal"><img src="main%20render.webp" alt="대성전 — 최종 건축물 렌더링" loading="lazy"></div><div class="cap-label" style="margin-bottom:50px;">대성전 — 최종 건축물 렌더링</div>
+<p class="note-text reveal" style="max-width:760px;font-size:15px;margin-bottom:40px;">실제 전주향교 대성전의 건축 도면과 사진을 참고하여 구조와 비례를 재현했습니다. 전통 목조 건축의 반복 부재를 모듈 단위로 제작하고, PBR 텍스처링과 사진 기반 AI 에셋 제작을 병행했습니다.</p>
+<div class="eyebrow reveal" style="margin:40px 0 18px;">Geometry Breakdown — Wireframe & Clay</div>
+<div class="grid2 reveal" style="margin-bottom:16px;"><div class="img-cap-block"><img src="wireframe.webp" alt="전체 와이어프레임" loading="lazy"></div><div class="img-cap-block"><img src="wireframe_thik.webp" alt="와이어프레임 디테일" loading="lazy"></div></div><div class="cap-label" style="margin-bottom:40px;">전체 메시 구성 및 건축 부재의 지오메트리</div>
+<div class="render-frame reveal"><img src="clay%20render.webp" alt="Clay Render — 재질을 제외한 형태 및 비례 확인" loading="lazy"></div><div class="cap-label" style="margin-bottom:50px;">Clay Render — 재질을 제외한 형태 및 비례 확인</div>
+<div class="eyebrow reveal" style="margin:40px 0 18px;">Modular Architecture — Exploded Assembly</div>
+<div class="render-frame reveal"><img src="moduer_white.webp" alt="모듈러 건축 구조 분해도" loading="lazy"></div><div class="cap-label" style="margin-bottom:50px;">모듈러 건축 구조 분해도</div>
+<div class="detail-notes reveal" style="margin-bottom:60px;"><div class="note-row"><div class="note-title">Roof / 지붕</div><div class="note-text">기와, 지붕 마루, 처마와 하부 목조 부재를 분리하여 지붕의 곡선과 적층 구조를 표현했습니다.</div></div><div class="note-row"><div class="note-title">Wall / 벽체</div><div class="note-text">벽면, 창호, 목재 프레임을 개별 파츠로 구성하여 반복 배치와 재사용을 고려했습니다.</div></div><div class="note-row"><div class="note-title">Column / 기둥</div><div class="note-text">기둥, 주초석, 수평 목조 부재를 분리하여 한옥의 목조 가구식 구조를 재현했습니다.</div></div><div class="note-row"><div class="note-title">Floor / 바닥</div><div class="note-text">바닥면, 석재 기단과 계단을 분리하여 건축물 하부 구조를 구성했습니다.</div></div></div>
+<div class="eyebrow reveal" style="margin:40px 0 18px;">Material &amp; Weathering</div>
+<div class="detail-sheet reveal"><div class="render-frame"><img src="door_detail.webp" alt="창호 및 목재 재질" loading="lazy"></div><div class="detail-notes"><div class="note-row"><div class="note-title">PBR Texturing</div><div class="note-text">Substance Painter로 기와, 목재, 석재의 재질을 구현했습니다.</div></div><div class="note-row"><div class="note-title">Surface Aging</div><div class="note-text">기와의 얼룩과 색상 편차, 목재의 마모와 도색 벗겨짐을 표현했습니다.</div></div></div></div>
+<div class="eyebrow reveal" style="margin:40px 0 18px;">AI-Assisted Asset Production</div>
+<div class="detail-sheet reveal"><div class="render-frame"><img src="sign_detail.webp" alt="대성전 현판" loading="lazy"></div><div class="detail-notes"><div class="note-row"><div class="note-title">AI-Assisted Signboard</div><div class="note-text">실제 현판 사진을 참고하여 AI로 한자 서체와 색상, 목재 질감을 재현하고 텍스처로 가공해 적용했습니다.</div></div></div></div>
+<div class="detail-sheet reveal"><div class="render-frame"><img src="roof_dregon.webp" alt="용두 장식 및 기와 디테일" loading="lazy"></div><div class="detail-notes"><div class="note-row"><div class="note-title">Dragon Head Ornament</div><div class="note-text">복잡한 비정형 용두 장식을 사진 기반 스캔 텍스처와 AI 3D 모델 생성 기술로 재현했습니다.</div></div><div class="note-row"><div class="note-title">Mesh Refinement</div><div class="note-text">AI 생성 모델의 형태와 폴리곤 구조를 직접 수정하고 사진 기반 텍스처를 적용하여 조각의 디테일과 노후화된 표면을 표현했습니다.</div></div></div></div>
+<div class="eyebrow reveal" style="margin:40px 0 18px;">Final Presentation</div>
+<div class="render-frame reveal"><img src="all_render.webp" alt="최종 완성 모델 — 전체 구조 및 재질" loading="lazy"></div><div class="cap-label" style="margin-bottom:50px;">최종 완성 모델 — 전체 구조 및 재질</div>
+<div class="render-frame video-frame reveal"><video controls playsinline preload="metadata" poster="all_render.webp"><source src="hanok_turntable_slow.mp4" type="video/mp4"></video></div><div class="cap-label" style="margin-bottom:50px;">360° Turntable — 건축물 전체 형태</div>
+<div class="render-frame video-frame reveal"><video controls playsinline preload="metadata" poster="main%20render.webp"><source src="Daeseongjeon_Portfolio_Short.mp4" type="video/mp4"></video></div><div class="cap-label" style="margin-bottom:20px;">Cinematic Showcase — 전주향교 대성전</div>
+</div></section>
+
+<!-- PROJECT 02 : 빛의 서약 -->
+<section id="project02" style="padding:0; border-bottom:1px solid var(--line);">
   <div class="project-hero">
     <video autoplay muted loop playsinline><source src="cinematics.mp4" type="video/mp4"></video>
     <div class="ph-overlay"></div>
     <div class="ph-content">
-      <div class="eyebrow" style="margin-bottom:8px;">Project 01 — Lighting &amp; Color Palette</div>
+      <div class="eyebrow" style="margin-bottom:8px;">Project 02 — Lighting &amp; Color Palette</div>
       <div class="project-title">빛의 서약 <span style="font-size:16px; font-family:var(--body); font-weight:500; color:var(--ink-soft); display:block; margin-top:8px;">Vow of Light · 고딕 던전 시네마틱</span></div>
       <div class="project-sub">Unreal Engine 5 · MetaHuman · Substance Painter 3D · Blender &nbsp;|&nbsp; 제작기간 2026.03 – 2026.05 (개인 작업 100%)</div>
     </div>
@@ -466,13 +491,13 @@
   </div>
 </section>
 
-<!-- PROJECT 02 : 함벽루 -->
-<section id="project02" style="padding:0; border-bottom:1px solid var(--line);">
+<!-- PROJECT 03 : 함벽루 -->
+<section id="project03" style="padding:0; border-bottom:1px solid var(--line);">
   <div class="project-hero">
     <video autoplay muted loop playsinline><source src="hambyeokru-showcase.mp4" type="video/mp4"></video>
     <div class="ph-overlay"></div>
     <div class="ph-content">
-      <div class="eyebrow" style="margin-bottom:8px;">Project 02 — Procedural Vegetation Workflow</div>
+      <div class="eyebrow" style="margin-bottom:8px;">Project 03 — Procedural Vegetation Workflow</div>
       <div class="project-title">Hambyeokru Korean Pavilion <span style="font-size:16px; font-family:var(--body); font-weight:500; color:var(--ink-soft); display:block; margin-top:8px;">정읍 함벽루 · 전북 언리얼엔진 공모전 출품작</span></div>
       <div class="project-sub">Blender · Substance Painter · Unreal Engine · After Effects &nbsp;|&nbsp; 제작기간 2026.06 – 2026.07 (개인 작업 100%)</div>
     </div>
@@ -565,13 +590,13 @@
   </div>
 </section>
 
-<!-- PROJECT 03 : 계절/날씨 PCG -->
-<section id="project03" style="padding:0; border-bottom:1px solid var(--line);">
+<!-- PROJECT 04 : 계절/날씨 PCG -->
+<section id="project04" style="padding:0; border-bottom:1px solid var(--line);">
   <div class="project-hero">
     <video autoplay muted loop playsinline><source src="season-cinematic-demo.mp4" type="video/mp4"></video>
     <div class="ph-overlay"></div>
     <div class="ph-content">
-      <div class="eyebrow" style="margin-bottom:8px;">Project 03 — PCG &amp; MCP Pipeline</div>
+      <div class="eyebrow" style="margin-bottom:8px;">Project 04 — PCG &amp; MCP Pipeline</div>
       <div class="project-title">Dynamic Season PCG &amp; Material Control System <span style="font-size:16px; font-family:var(--body); font-weight:500; color:var(--ink-soft); display:block; margin-top:8px;">안동 '만휴정' 계곡 배경 · Time, Season &amp; Weather PCG System</span></div>
       <div class="project-sub">Unreal Engine 5 · Claude &amp; Codex MCP · Blender &nbsp;|&nbsp; 제작기간 2026.07 – 2026.08 (개인 작업 100%)</div>
     </div>
@@ -674,9 +699,10 @@
     </div>
 
     <div class="video-link-list">
-      <div class="video-link-row"><span class="vl-tag">영상링크 · PROJECT 01</span><a href="https://www.youtube.com/watch?v=xXBmdabLTQ8" target="_blank" rel="noopener">youtube.com/watch?v=xXBmdabLTQ8</a></div>
-      <div class="video-link-row"><span class="vl-tag">영상링크 · PROJECT 02</span><a href="https://www.youtube.com/watch?v=EDGZYicer1Q" target="_blank" rel="noopener">youtube.com/watch?v=EDGZYicer1Q</a></div>
-      <div class="video-link-row"><span class="vl-tag">영상링크 · PROJECT 03</span><a href="https://www.youtube.com/watch?v=DALW6mB81FQ" target="_blank" rel="noopener">youtube.com/watch?v=DALW6mB81FQ</a></div>
+      <div class="video-link-row"><span class="vl-tag">영상링크 · PROJECT 01</span><a href="Daeseongjeon_Portfolio_Short.mp4" target="_blank" rel="noopener">전주향교 대성전 — Cinematic</a></div>
+      <div class="video-link-row"><span class="vl-tag">영상링크 · PROJECT 02</span><a href="https://www.youtube.com/watch?v=xXBmdabLTQ8" target="_blank" rel="noopener">youtube.com/watch?v=xXBmdabLTQ8</a></div>
+      <div class="video-link-row"><span class="vl-tag">영상링크 · PROJECT 03</span><a href="https://www.youtube.com/watch?v=EDGZYicer1Q" target="_blank" rel="noopener">youtube.com/watch?v=EDGZYicer1Q</a></div>
+      <div class="video-link-row"><span class="vl-tag">영상링크 · PROJECT 04</span><a href="https://www.youtube.com/watch?v=DALW6mB81FQ" target="_blank" rel="noopener">youtube.com/watch?v=DALW6mB81FQ</a></div>
       <div class="video-link-row"><span class="vl-tag">실시간 패키징 빌드</span><a href="https://github.com/pigkong-bot/yewon-lim-portfolio/releases/tag/manhyujeong-demo-v1" target="_blank" rel="noopener">github.com/pigkong-bot/yewon-lim-portfolio/releases/tag/manhyujeong-demo-v1</a></div>
     </div>
 
